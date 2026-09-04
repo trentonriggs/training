@@ -56,7 +56,7 @@ On macOS or Linux, replace `YOUR_USERNAME` with the GitHub username hosting this
 
 ```bash
 mkdir -p ~/.agents/skills/training
-curl -L https://raw.githubusercontent.com/YOUR_USERNAME/chatgpt-training-skill/main/training/SKILL.md \
+curl -L https://raw.githubusercontent.com/trentonriggs/training/main/training/SKILL.md \
   -o ~/.agents/skills/training/SKILL.md
 ```
 
