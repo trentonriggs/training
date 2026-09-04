@@ -1,0 +1,14 @@
+interface:
+  display_name: Training
+  short_description: Adaptive strength, muscle, and VO₂ coach
+  default_prompt: Use $training to plan my next workout, track my completed work,
+    and progress me from verified history.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
