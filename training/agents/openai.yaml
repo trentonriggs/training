@@ -1,14 +1,13 @@
 interface:
-  display_name: Training
-  short_description: Adaptive strength, muscle, and VO₂ coach
-  default_prompt: Use $training to plan my next workout, track my completed work,
-    and progress me from verified history.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "Training"
+  short_description: "Adaptive workouts with trustworthy progress tracking"
+  default_prompt: "Use $training to build today's workout around my goals, equipment, time, and available training history."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
 policy:
   products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
   allow_implicit_invocation: true
